@@ -1,3 +1,9 @@
+$(window).resize(function() {
+    var imgWidth = $(this).width();
+    // Container has a responsive height
+    $('.receiver-cont').height(imgWidth / 2);
+  }).resize();
+
 function allowDrop(event) {
     event.preventDefault();
 }
