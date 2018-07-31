@@ -1,0 +1,76 @@
+.yellow{
+    cursor: move;
+}
+
+#top{
+    background-color: rgb(206, 204, 204);
+    height: 300px;
+    width: 280px;
+    
+}
+
+h1{
+    font-family: 'Cookie', cursive;
+}
+
+/*------------MEDIA QUERIES----------*/
+@media only screen and (max-width: 1440px) {
+    .yellow{
+            width: 140px;
+    }  
+    
+    h1{
+        font-size: 120px;
+    }
+
+    #top{
+        width: 860px;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+   .yellow {
+            width: 100px;
+   }
+
+   #top{
+       width: 620px;
+   }
+}
+
+@media only screen and (max-width: 425px) {
+    .yellow {
+             width: 115px;
+    }
+
+    h1{
+        font-size: 70px;
+    }
+ 
+    #top{
+        width: 360px;
+    }
+ }
+
+ @media only screen and (max-width: 375px) {
+    .yellow {
+             width: 90px;
+    }
+ 
+    #top{
+        width: 280px;
+    }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
