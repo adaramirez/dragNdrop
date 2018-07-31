@@ -4,7 +4,7 @@
 
 #top{
     background-color: rgb(206, 204, 204);
-    height: 300px;
+    min-height: 300px;
     width: 280px;
     
 }
