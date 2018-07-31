@@ -16,7 +16,7 @@ h1{
 /*------------MEDIA QUERIES----------*/
 @media only screen and (max-width: 1440px) {
     .yellow{
-            width: 140px;
+            width: 230px;
     }  
     
     h1{
@@ -24,7 +24,9 @@ h1{
     }
 
     #top{
-        width: 860px;
+        min-height: 500px;
+        width: 720px;
+        
     }
     
 }
