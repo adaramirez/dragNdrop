@@ -14,22 +14,22 @@
 </head>
 <body>
     <h1 class="text-center">Sunshine</h1>
-    <div id="top" class="container">
+    <div id="top" class="container" ondrop="drop(event)" ondragover="allowDrop(event)">
         <div class="row">
-            <div class="col-sm">
+            <div class="col-sm" >
             </div>
         </div>
     </div>
     <br>
     <div id="bottom" class="source">
         <div class="row">
-            <div class="container col-sm col-lg text-center">
-                <img id="bouquet" class="yellow" draggable="true" src="assets/images/bouquet.jpg" alt="bouquet">
-                <img id="bicycle" class="yellow" draggable="true" src="assets/images/bicycle.jpg" alt="bicycle">
-                <img id="bulbs" class="yellow" draggable="true" src="assets/images/bulbs.jpg" alt="bulbs">
-                <img id="cassette" class="yellow" draggable="true" src="assets/images/cassette.jpg" alt="cassette">
-                <img id="door" class="yellow" draggable="true" src="assets/images/door.jpg" alt="door">
-                <img id="lemons" class="yellow" draggable="true" src="assets/images/lemons.jpg" alt="lemons">
+            <div class="container col-sm col-lg text-center" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="bouquet" class="yellow" draggable="true" src="assets/images/bouquet.jpg" alt="bouquet" ondragstart="drag(event)">
+                <img id="bicycle" class="yellow" draggable="true" src="assets/images/bicycle.jpg" alt="bicycle" ondragstart="drag(event)">
+                <img id="bulbs" class="yellow" draggable="true" src="assets/images/bulbs.jpg" alt="bulbs" ondragstart="drag(event)">
+                <img id="cassette" class="yellow" draggable="true" src="assets/images/cassette.jpg" alt="cassette" ondragstart="drag(event)">
+                <img id="door" class="yellow" draggable="true" src="assets/images/door.jpg" alt="door" ondragstart="drag(event)">
+                <img id="lemons" class="yellow" draggable="true" src="assets/images/lemons.jpg" alt="lemons" ondragstart="drag(event)">
             </div>
         </div>
     </div>
