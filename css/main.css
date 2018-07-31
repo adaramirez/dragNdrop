@@ -14,9 +14,11 @@ h1{
 }
 
 /*------------MEDIA QUERIES----------*/
+
+/*Laptop*/
 @media only screen and (max-width: 1440px) {
     .yellow{
-            width: 230px;
+        width: 230px;
     }  
     
     h1{
@@ -31,12 +33,14 @@ h1{
     
 }
 
+/*Tablet*/
 @media only screen and (max-width: 768px) {
    .yellow {
-            width: 100px;
+        width: 100px;
    }
 
    #top{
+       min-height: 150px;
        width: 620px;
    }
 }
